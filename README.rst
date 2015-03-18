@@ -2,15 +2,17 @@
 pylibmc cache backend for Django
 ================================
 
+.. image:: https://travis-ci.org/jbalogh/django-pylibmc.svg
+    :target: https://travis-ci.org/jbalogh/django-pylibmc
+
 This package provides a memcached cache backend for Django using
 `pylibmc <http://github.com/lericson/pylibmc>`_.  You want to use pylibmc because
 it's fast.
 
-
 Requirements
 ------------
 
-django-pylibmc requires Django 1.3+.  It was written and tested on Python 2.7.
+django-pylibmc requires Django 1.5+.  It was written and tested on Python 2.7.
 
 
 Installation
